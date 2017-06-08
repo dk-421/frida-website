@@ -121,7 +121,7 @@ You can add `-p` to limit which tests are run, e.g. `-p /Linjector/inject`.
 
 ### Porting frida-core
 
-This should only be a matter of porting the injector. The implementation is [here](https://github.com/frida/frida-core/blob/master/src/linux/frida-helper-glue.c)
+This should only be a matter of porting the injector. The implementation is [here](https://github.com/frida/frida-core/blob/master/src/linux/frida-helper-service-glue.c)
 and it is basically just a matter of following the `HAVE_ARM64` breadcrumbs
 to port the architecture-specific bits. For a walkthrough of the Linux injector,
 check out our presentation [here](https://www.youtube.com/watch?v=uc1mbN9EJKQ).
